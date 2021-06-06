@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home || World Tour</title>
+
+    <!-- link for the Cascading Style Sheet (CSS / CSS3) -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- link for media queries to make responsive -->
+    <link rel="stylesheet" href="./style/responsive.css">
+
+    <!-- link for Dosis google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- reponsive navbar js kit -->
+
+
+</head>
+
+<body>
+    <script>
+        var in_de;
+
+        function change() {
+            var c = document.getElementById('size').value;
+            var d = document.getElementById('t_size');
+            d.style.fontSize = c + "px";
+            in_de = c;
+            document.getElementById("in_de").innerHTML = in_de;
+        }
+    </script>
+    <header class="clearfix">
+
+        <label for="logo" class="logo"><a href="index.html">
+                <img class="logo-img" src="./images/logo.png" alt="logo" id="t_size">
+                World Tour</a></label>
+        <nav class="nav_list">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn" alt="menu-bar"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <ul class="active">
+                <li><a id="t_size" href="index.html">Home</a></li>
+                <li><a id="t_size" href="./nationaldestination.html">Destination</a>
+                </li>
+                <li><a id="t_size" href="./internationaldestination.html">International</a>
+                </li>
+                <li><a id="t_size" href="./contact.html">About</a></li>
+                <li><a id="t_size" href="./about.html">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="account" class="account"><a href="./loginsignup.html">Sign Up</a></label>
+    </header>
+    <div style="line-height: 30px;">
+        <span style="font-size: 20px;">Fon Size Changer : </span>
+        <span><input type="range" onmouseover="change();" id="size" min="0" max="60" value="20"
+                style="width: 60%;" /></span>
+    </div>
+    <!-- **************************************2********************************************************************** -->
+    <!-- Hero Image Start -->
+    <main>
+        <section class="hero_content">
+            <img id="heroImage1" src="./images/bg.jpg" alt="Hero Image1">
+
+            <section class="hero_text">
+                <h2>Explore, Journey, Discover , Advanture</h2>
+                <h1>Welcome to Nepal</h1>
+                <h2>Visit Nepal 2020</h2>
+            </section>
+        </section>
+    </main>
+    <!-- End of Hero Image -->
+
+    <!-- ************************************************************************************************************ -->
+    <!-- Start of Destinatitons -->
+    <main class="clearfix" id="destination">
+        <!-- Start of National Destinations -->
+        <section class="destinations">
+            <div class="destination-title">
+                <h2>National Destinations</h2>
+            </div>
+            <div class="destinations-center">
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/chitwan.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Chitwan Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/pokhara.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Pokhara Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+            </div>
+        </section>
+        <!-- End of National Destinations -->
+
+        <!-- ************************************************************************************************************ -->
+        <!-- ************************************************************************************************************ -->
+
+        <!-- Start of International Destinations -->
+        <section class="destinations">
+            <div class="destination-title">
+                <h2>International Destinations</h2>
+            </div>
+            <div class="destinations-center">
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Bali (Indonesia) Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Ubud (Indonesia) Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+                <!-- Single Product -->
+                <article class="destination">
+                    <div class="img-container">
+                        <img src="./images/kathmandu.jpg" class="destination-img" alt="kathmandu">
+                        <button class="book-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to book
+                        </button>
+                    </div>
+                    <h3>Kathamndu Packages</h3>
+                    <h4>NRP. 80,000</h4>
+                </article>
+                <!-- End of Single Product -->
+            </div>
+        </section>
+        <!-- End of International Destinations -->
+    </main>
+
+    <!-- ************************************************************************************************************ -->
+    <!-- Contact us Start -->
+    <footer id="contactus">
+        <h1 style="text-align: center;">CONTACT DETAILS</h1>
+        <br><br>
+        <section class="footer_content">
+            <section class="footer-3">
+                <h2>Tour Nepal</h2>
+                <p>Journey to Nepal with our range of Tour Nepal that include escorted group Nepal tour, trekking,
+                    tailor-made holidays,
+                    luxury vacation and private tours. Tour Nepal are a small group adventure travel company based in
+                    Kathmandu.</p>
+                <br>
+                <p>Phone: +977 01 4273875</p>
+                <p>Mobile: +977 9843699785</p>
+                <p>Viber: +977 9808512371</p>
+                <p>Skype: TourNepal.2020</p>
+
+            </section>
+            <section class="footer-3">
+                <h2>Social Midea</h2>
+                <ul>
+                    <li><i class="fab fa-facebook-f"> Facebook: </i></li>
+                    <li>Instagram:</li>
+                    <li>Twitter:</li>
+                    <li>Email: </li>
+                </ul>
+            </section>
+            <section class="footer-3">
+                <h2>Feedback</h2>
+                <form id="feedbackform">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email_fdk" placeholder="Email ID">
+                    <br>
+                    <br>
+                    <label for="Message:">Message:</label>
+                    <input type="text" name="mesage" id="message_fdk" placeholder="Your Message">
+                    <br>
+                    <br>
+                    <input type="button" value="button">
+                </form>
+            </section>
+        </section>
+        <section class="footer_bottom">
+            &copy; TOUR World 2021. All Rights Reserved || Design by Pramod Chaudhary
+        </section>
+    </footer>
+    <!-- contact us End -->
+    <script src="./js/feedback.js"></script>
+    <script src="https://kit.fontawesome.com/d3a3d7e803.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

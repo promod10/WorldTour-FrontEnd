@@ -1,0 +1,85 @@
+/* high resolution tablets, laptops and desktops */
+@media only screen and (min-width: 1200px) {
+    header {
+        font-family: 'Patua One', cursive;
+        background-color: dodgerblue;
+        height: 90px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 90px;
+        top: 20px;
+        left: 6%;
+    }
+
+    .nav_list ul li a {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 944px) {
+    header {
+        font-family: 'Patua One', cursive;
+        background-color: dodgerblue;
+        height: 120px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 130px;
+        top: 20px;
+        left: 6%;
+    }
+
+    .nav_list ul li a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 860px) {
+    header {
+        font-family: 'Patua One', cursive;
+        background-color: dodgerblue;
+        height: 130px;
+        width: 100%;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    .nav_list ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #34495e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .nav_list ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .nav_list ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+    }
+}

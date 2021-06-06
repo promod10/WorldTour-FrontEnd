@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Signup || FWorld Tour</title>
+    <link rel="stylesheet" href="./style/loginsignup.css">
+</head>
+
+<body>
+    <div id="container">
+        <main id="main-formbox">
+            <div id="loginsignup_form">
+                <div id="login-label" class="active">Login</div>
+                <div id="signup-label" class="active">Sign Up</div>
+                <form id="login_form" action="#" method="GET">
+                    <div class="form-group">
+                        <input type="text" class="form_control inputbox" id="login-user" placeholder="Username / Email">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form_control inputbox" id=" login-pass" placeholder="Password">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-form" value="Login">
+                    </div>
+                    <p class="textcenter signuptxt">Do not have an account? <a href="#" class="link signuplink">Sign
+                            up</a></p>
+                    <p class="textcenter forgettxt"> <a href="#signup_form" class="link forgetlink">Forget Password?</a>
+                    </p>
+                </form>
+                <form id="signup_form" hidden>
+                    <div class="form-group">
+                        <input type="text" class="form_control inputbox" id="register-fname" placeholder="First Name">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form_control inputbox" id="register-lname" placeholder="Last Name">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form_control inputbox" id="register-email" placeholder="Email">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form_control inputbox" id="register-pass" placeholder="Password">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form_control inputbox" id="register-cpass"
+                            placeholder="Confirm Password">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form_control inputbox" id="register-phone"
+                            placeholder="Phone number">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-form" value="Register">
+                    </div>
+                    <p class="textcenter signuptxt">Already have an account? <a href="#login_form"
+                            class="link loginlink">Login</a>
+                    </p>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="./js/loginsignup.js"></script>
+</body>
+
+</html>

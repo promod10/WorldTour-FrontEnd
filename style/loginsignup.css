@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3C4146;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-formbox {
+    background: #2D3238;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.50);
+    transition: all 0.1s ease-in;
+}
+
+#main-formbox:hover {
+    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.50);
+}
+
+#login_form,
+#signup_form {
+    padding: 30px;
+}
+
+.form_control {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.inputbox {
+    height: 35px;
+    border: none;
+    padding: 5px;
+}
+
+.inputbox:focus {
+    outline-style: auto;
+    outline-width: 3px;
+    outline-color: #01A2C3;
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-form {
+    background: #01A2C3;
+    color: white;
+}
+
+#login-label,
+#signup-label {
+    padding: 15px;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.active {
+    background: #2196F3;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.signuptxt,
+.forgettxt {
+    font-size: 12px;
+    margin: 10px 0;
+    color: white;
+}
+
+.link,
+.link:active,
+.link:visited {
+    text-decoration: none;
+    color: #2196F3;
+}
